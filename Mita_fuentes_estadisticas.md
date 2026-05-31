@@ -39,10 +39,11 @@ Mensaje: Santa Cruz no es un caso pequeno; es el departamento mas poblado de Bol
 
 ```mermaid
 xychart-beta
-  title "Poblacion censada por departamento - Bolivia 2024"
-  x-axis ["SCZ", "LPZ", "CBBA", "POT", "CHQ", "ORU", "TJA", "BEN", "PAN"]
+  title "Población Censada por Departamento - Bolivia 2024"
+  x-axis ["SCZ (3.1M)", "LPZ (3.0M)", "CBBA (2.0M)", "POT (0.8M)", "CHQ (0.6M)", "ORU (0.5M)", "TJA (0.5M)", "BEN (0.4M)", "PAN (0.1M)"]
   y-axis "Habitantes" 0 --> 3300000
   bar [3122605, 3030917, 2016357, 861292, 606027, 571471, 534210, 488260, 134194]
+  line [3122605, 3030917, 2016357, 861292, 606027, 571471, 534210, 488260, 134194]
 ```
 
 Fuente: INE Censo 2024, resultados oficiales difundidos en 2025.
@@ -53,10 +54,11 @@ Mensaje: la busqueda de espacios productivos importa porque Santa Cruz concentra
 
 ```mermaid
 xychart-beta
-  title "Participacion en la base empresarial de Bolivia - 2024"
-  x-axis ["La Paz", "Santa Cruz", "Cochabamba", "Otros"]
-  y-axis "%" 0 --> 35
+  title "Participación en la Base Empresarial de Bolivia - 2024"
+  x-axis ["La Paz (31%)", "Santa Cruz (29.7%)", "Cochabamba (16.6%)", "Otros (22.7%)"]
+  y-axis "% de Participación" 0 --> 35
   bar [31, 29.7, 16.6, 22.7]
+  line [31, 29.7, 16.6, 22.7]
 ```
 
 Fuente: SEPREC Memoria 2024.
@@ -67,10 +69,11 @@ Mensaje: los usuarios ya estan en internet, redes y Facebook; Mita organiza lo q
 
 ```mermaid
 xychart-beta
-  title "Adopcion digital en Bolivia - datos disponibles a oct. 2025"
-  x-axis ["Internet", "Redes sociales", "Facebook", "Messenger"]
-  y-axis "% poblacion o base local" 0 --> 85
+  title "Adopción Digital en Bolivia (Oct. 2025)"
+  x-axis ["Internet (71.3%)", "Redes Sociales (74.7%)", "Facebook (59.8%)", "Messenger (31.3%)"]
+  y-axis "% de Población" 0 --> 85
   bar [71.3, 74.7, 59.8, 31.3]
+  line [71.3, 74.7, 59.8, 31.3]
 ```
 
 Fuente: DataReportal Digital 2026 Bolivia. Nota: Facebook/Messenger son alcance publicitario, no usuarios activos unicos.
@@ -81,10 +84,11 @@ Mensaje: en Bolivia los canales digitales influyen la compra, pero el cierre/con
 
 ```mermaid
 xychart-beta
-  title "Canales usados en compras/contrataciones digitales - estudio 2021"
-  x-axis ["FB/IG ads", "WhatsApp", "Marketplace", "Cara a cara"]
-  y-axis "%" 0 --> 65
-  bar [21, 17, 16, 58]
+  title "Canales Usados en Compras y Contrataciones Digitales (%)"
+  x-axis ["Cara a cara (58%)", "FB/IG ads (21%)", "WhatsApp (17%)", "Marketplace (16%)"]
+  y-axis "% de Frecuencia" 0 --> 65
+  bar [58, 21, 17, 16]
+  line [58, 21, 17, 16]
 ```
 
 Fuente: Ariadna/Activo$ Bolivia citado por Bolivia Energia Libre. Nota: muestra de 554 encuestas en seis ciudades; usar como evidencia cualitativa-cuantitativa, no como cifra censal.
@@ -109,9 +113,9 @@ Grafica sugerida para esa auditoria:
 
 ```mermaid
 xychart-beta
-  title "Campos faltantes en publicaciones inmobiliarias auditadas"
+  title "Campos Faltantes en Publicaciones Inmobiliarias Auditadas (%)"
   x-axis ["m2", "uso permitido", "condiciones", "zona exacta", "parqueo", "servicios"]
-  y-axis "% publicaciones" 0 --> 100
+  y-axis "% de Faltas" 0 --> 100
   bar [0, 0, 0, 0, 0, 0]
 ```
 
